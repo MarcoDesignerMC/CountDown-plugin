@@ -22,6 +22,7 @@ public final class Main extends JavaPlugin {
 			//Comandi
 			this.getCommand("countdown").setExecutor(new Countdown());
 			this.getCommand("cdvisit").setExecutor(new Visit());
+			this.getCommand("timer").setExecutor(new Timer());
 			PluginDescriptionFile pdfFile = this.getDescription();
 			this.logger.info(pdfFile.getName() + " has been enabled.");
 		}
