@@ -7,4 +7,4 @@ commands:
 	cdvisit:
 		description: Visit the website link
 	timer:
-		description: Start a Timer!
+		description: Start a Timer
