@@ -6,3 +6,5 @@ commands:
 		description: It counts down
 	cdvisit:
 		description: Visit the website link
+	timer:
+		description: Start a Timer!
