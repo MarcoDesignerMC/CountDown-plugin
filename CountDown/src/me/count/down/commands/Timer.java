@@ -40,9 +40,15 @@ public class Timer implements CommandExecutor{
 					
 				//NON HA I PERMESSI	
 				}else{
-					player.sendMessage(ChatColor.DARK_RED + "You don't have permission!");
+					player.sendMessage(ChatColor.DARK_RED + player.getDisplayName() + ", you don't have permission!");
 				}
 		
+			}else{
+				if(player.hasPermission("cd.timer")){
+					player.sendMessage(ChatColor.RED + "The correct usage is: /timer .");
+				}else{
+					player.sendMessage(ChatColor.RED + player.getDisplayName() + ", you don't have permission!!");
+				}
 			}
 		}
 		
